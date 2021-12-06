@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* header section */
+.header{
+    background-color: white;
+    width: 100%;
+}
+.header .row ul{
+    padding-top: 5px;
+}
+.header ul a{
+    color: black;
+    text-decoration: none;
+}
+.header ul li{
+    padding: 10px;
+    font-weight: 500;
+    position: relative;
+}
+.header ul li i{
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
+.header ul li input{
+    padding: 12px 30px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+.header ul li input::placeholder{
+    padding-left: 15px;
+    font-weight: 500;
+}
+
+/* hesder section end */
+
+/* banner section ********************* */
+.banner{
+    background-color: rgb(117, 79, 254);
+}
+.banner .container .btn1{
+    background-color: rgb(21, 173, 129);
+    color: white;
+    padding: 12px 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.banner .container .btn2{
+    background-color: white;
+    color: black;
+    padding: 12px 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* services section start */
+.services-section{
+  /* border: 1px solid; */
+}
+.services-section .container span{
+    display: inline-block;
+   
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    float: left;
+    border-radius: 50%;
+    background-color: rgb(255, 238, 218);
+    margin-top: 12px;
+    
+    
+}
+.services-section .container span i{
+    padding-top: 15px;
+    color: rgb(232, 180, 162);
+    cursor: pointer;
+}
+.services-section .container .content-div{
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+/* cards section start ************************* */
+
+.container .card-subimg{
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid red; */
+    display: inline-block;
+    border-radius: 50%;
+}
+.container .card-subimg img{
+    border-radius: 50%;
+}
+
+/* the end */
